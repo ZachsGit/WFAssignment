@@ -15,6 +15,13 @@
 		34D224651E4C2C5D004FF1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D224631E4C2C5D004FF1A4 /* LaunchScreen.storyboard */; };
 		34D224701E4C2C5D004FF1A4 /* WFAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2246F1E4C2C5D004FF1A4 /* WFAssignmentTests.m */; };
 		34D2247B1E4C2C5D004FF1A4 /* WFAssignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2247A1E4C2C5D004FF1A4 /* WFAssignmentUITests.m */; };
+		34D2248F1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2248D1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m */; };
+		34D224901E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D2248E1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib */; };
+		34D224941E4C6647004FF1A4 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D224931E4C6647004FF1A4 /* page1.png */; };
+		34D224961E4C664E004FF1A4 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D224951E4C664E004FF1A4 /* page2.png */; };
+		34D224981E4C6652004FF1A4 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D224971E4C6652004FF1A4 /* page3.png */; };
+		34D2249B1E4C66A9004FF1A4 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */; };
+		34D2249E1E4C7CBD004FF1A4 /* ServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,16 @@
 		34D224761E4C2C5D004FF1A4 /* WFAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D2247A1E4C2C5D004FF1A4 /* WFAssignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAssignmentUITests.m; sourceTree = "<group>"; };
 		34D2247C1E4C2C5D004FF1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D2248C1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservationCollectionViewCell.h; sourceTree = "<group>"; };
+		34D2248D1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservationCollectionViewCell.m; sourceTree = "<group>"; };
+		34D2248E1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservationCollectionViewCell.xib; sourceTree = "<group>"; };
+		34D224931E4C6647004FF1A4 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		34D224951E4C664E004FF1A4 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		34D224971E4C6652004FF1A4 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		34D224991E4C66A9004FF1A4 /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
+		34D2249C1E4C7CBD004FF1A4 /* ServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTableViewCell.h; sourceTree = "<group>"; };
+		34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +122,14 @@
 				34D224591E4C2C5D004FF1A4 /* AppDelegate.m */,
 				34D2245B1E4C2C5D004FF1A4 /* ViewController.h */,
 				34D2245C1E4C2C5D004FF1A4 /* ViewController.m */,
+				34D2248C1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.h */,
+				34D2248D1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m */,
+				34D2248E1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib */,
 				34D2245E1E4C2C5D004FF1A4 /* Main.storyboard */,
+				34D224991E4C66A9004FF1A4 /* ServiceViewController.h */,
+				34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */,
+				34D2249C1E4C7CBD004FF1A4 /* ServiceTableViewCell.h */,
+				34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */,
 				34D224611E4C2C5D004FF1A4 /* Assets.xcassets */,
 				34D224631E4C2C5D004FF1A4 /* LaunchScreen.storyboard */,
 				34D224661E4C2C5D004FF1A4 /* Info.plist */,
@@ -118,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				34D224561E4C2C5D004FF1A4 /* main.m */,
+				34D224931E4C6647004FF1A4 /* page1.png */,
+				34D224951E4C664E004FF1A4 /* page2.png */,
+				34D224971E4C6652004FF1A4 /* page3.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -250,8 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34D224651E4C2C5D004FF1A4 /* LaunchScreen.storyboard in Resources */,
+				34D224941E4C6647004FF1A4 /* page1.png in Resources */,
+				34D224901E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib in Resources */,
 				34D224621E4C2C5D004FF1A4 /* Assets.xcassets in Resources */,
 				34D224601E4C2C5D004FF1A4 /* Main.storyboard in Resources */,
+				34D224961E4C664E004FF1A4 /* page2.png in Resources */,
+				34D224981E4C6652004FF1A4 /* page3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +310,9 @@
 				34D2245D1E4C2C5D004FF1A4 /* ViewController.m in Sources */,
 				34D2245A1E4C2C5D004FF1A4 /* AppDelegate.m in Sources */,
 				34D224571E4C2C5D004FF1A4 /* main.m in Sources */,
+				34D2249B1E4C66A9004FF1A4 /* ServiceViewController.m in Sources */,
+				34D2248F1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m in Sources */,
+				34D2249E1E4C7CBD004FF1A4 /* ServiceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +548,7 @@
 				34D224811E4C2C5D004FF1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34D224821E4C2C5D004FF1A4 /* Build configuration list for PBXNativeTarget "WFAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				34D224841E4C2C5D004FF1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34D224851E4C2C5D004FF1A4 /* Build configuration list for PBXNativeTarget "WFAssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				34D224871E4C2C5D004FF1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

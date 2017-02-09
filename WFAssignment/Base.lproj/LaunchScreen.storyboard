@@ -28,8 +28,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.396078431372549" green="0.70588235294117641" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="LuE-h9-Bxx" firstAttribute="centerX" secondItem="hTI-5P-ylu" secondAttribute="centerX" id="HYx-3I-8yu"/>
                                     <constraint firstItem="LuE-h9-Bxx" firstAttribute="centerY" secondItem="hTI-5P-ylu" secondAttribute="centerY" id="KM9-rJ-ZUP"/>
+                                    <constraint firstItem="LuE-h9-Bxx" firstAttribute="leading" secondItem="hTI-5P-ylu" secondAttribute="leading" constant="23" id="Lou-gI-45o"/>
+                                    <constraint firstAttribute="trailing" secondItem="LuE-h9-Bxx" secondAttribute="trailing" constant="23" id="mPZ-hM-K3h"/>
                                     <constraint firstAttribute="height" constant="170" id="rZO-3L-7P5"/>
                                 </constraints>
                             </view>
