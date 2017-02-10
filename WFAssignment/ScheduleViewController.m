@@ -32,6 +32,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"SCHEDULE";
+
     self.theTableView.delegate = self;
     self.theTableView.dataSource = self;
     
@@ -40,7 +42,6 @@
     self.reserveButton.userInteractionEnabled = NO;
     self.reserveButton.alpha = 0.5;
     
-    self.navigationItem.title = @"SCHEDULE";
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], }];
 }
 

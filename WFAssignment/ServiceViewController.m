@@ -23,9 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navigationItem.title = @"SPA SERVICE";
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], }];
-
+    self.navigationItem.title = @"SPA SERVICE";
     
     self.theTableView.delegate = self;
     self.theTableView.dataSource = self;
@@ -59,6 +58,12 @@
     }
     
     self.pageControl.currentPage = 0;
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    self.navigationItem.title = @"SPA SERVICE";
 }
 
 - (void)didReceiveMemoryWarning {

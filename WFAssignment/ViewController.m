@@ -29,6 +29,8 @@
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
 
+    self.navigationController.title = @"MY RESERVATIONS";
+
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"plus"]style:UIBarButtonItemStylePlain target:self action:@selector(plusButtonClicked:)];
     
     savedReservationArray = [[[NSUserDefaults standardUserDefaults] objectForKey:@"savedReservation"] mutableCopy];
@@ -50,9 +52,13 @@
     [self.theCollectionView registerNib:[UINib nibWithNibName:@"ReservationCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"ReservationCell"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reserveButtonCliked) name:@"ReserveButtonCliked" object:nil];
-
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+    self.navigationItem.title = @"MY RESERVATIONS";
+}
 
 #pragma mark - UICollectionView DataSource
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -105,8 +111,6 @@
 
 -(void)reserveButtonCliked{
     
-    self.navigationItem.title = @"MY RESERVATIONS";
-
     savedReservationArray = [[NSMutableArray alloc]init];
     
     savedReservationArray = [[[NSUserDefaults standardUserDefaults] objectForKey:@"savedReservation"] mutableCopy];
