@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DateCell" id="gTV-IL-0wX" customClass="DateCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="55" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="55" height="85"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1B-94-hwk">
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="KxO-S0-uDR"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWm-JI-l66">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Ch3-0t-XoY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLi-XJ-3TR">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NFC-en-0me">
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="BEL-bA-2zA">
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="iZn-KU-lZ3"/>
+                            <constraint firstAttribute="width" constant="40" id="jaH-RM-0Vu"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NFC-en-0me" secondAttribute="bottom" id="45W-yZ-V35"/>
+                <constraint firstAttribute="trailing" secondItem="jLi-XJ-3TR" secondAttribute="trailing" id="Arm-kt-AT0"/>
+                <constraint firstItem="BEL-bA-2zA" firstAttribute="centerY" secondItem="NFC-en-0me" secondAttribute="centerY" id="J4t-Qf-NbI"/>
+                <constraint firstItem="jLi-XJ-3TR" firstAttribute="top" secondItem="aWm-JI-l66" secondAttribute="bottom" constant="5" id="O56-cg-aW4"/>
+                <constraint firstAttribute="trailing" secondItem="V1B-94-hwk" secondAttribute="trailing" id="OGj-N3-ZsX"/>
+                <constraint firstItem="jLi-XJ-3TR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Pzj-82-bXt"/>
+                <constraint firstItem="aWm-JI-l66" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Q4F-Eu-4M5"/>
+                <constraint firstItem="aWm-JI-l66" firstAttribute="top" secondItem="V1B-94-hwk" secondAttribute="bottom" constant="10" id="St5-Xf-Rps"/>
+                <constraint firstItem="V1B-94-hwk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Wit-Yw-W17"/>
+                <constraint firstItem="NFC-en-0me" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZSu-uh-Srx"/>
+                <constraint firstAttribute="bottom" secondItem="jLi-XJ-3TR" secondAttribute="bottom" constant="10" id="btk-57-k40"/>
+                <constraint firstAttribute="trailing" secondItem="aWm-JI-l66" secondAttribute="trailing" id="gXM-xp-39R"/>
+                <constraint firstItem="NFC-en-0me" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ly4-Po-Xk9"/>
+                <constraint firstAttribute="trailing" secondItem="NFC-en-0me" secondAttribute="trailing" id="oCr-HI-jtO"/>
+                <constraint firstItem="V1B-94-hwk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pJC-Yi-oJn"/>
+                <constraint firstItem="BEL-bA-2zA" firstAttribute="centerX" secondItem="NFC-en-0me" secondAttribute="centerX" id="y9x-JT-KdS"/>
+            </constraints>
+            <connections>
+                <outlet property="checkmarkImageView" destination="BEL-bA-2zA" id="eIQ-cp-jJ0"/>
+                <outlet property="dateLabel" destination="jLi-XJ-3TR" id="eHi-OM-16p"/>
+                <outlet property="selectView" destination="NFC-en-0me" id="EHh-QG-sab"/>
+                <outlet property="weekLabel" destination="aWm-JI-l66" id="qlI-tn-SRN"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" width="22" height="22"/>
+    </resources>
+</document>

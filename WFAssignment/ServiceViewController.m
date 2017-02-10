@@ -8,10 +8,12 @@
 
 #import "ServiceViewController.h"
 #import "ServiceTableViewCell.h"
+#import "ScheduleViewController.h"
 
 @interface ServiceViewController ()<UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>{
     
     NSArray *imagesArray;
+    NSArray *labelsArray;
 }
 
 @end
@@ -21,13 +23,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"SPA SERVICE";
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], }];
+
+    
     self.theTableView.delegate = self;
     self.theTableView.dataSource = self;
     
     self.reserveButton.layer.cornerRadius = 5;
     self.reserveButton.layer.masksToBounds = YES;
     
-    self.theTableView.layer.cornerRadius = 5;
+    self.theTableView.layer.cornerRadius = 10;
     self.theTableView.layer.masksToBounds = YES;
 
     CGSize screenSize = [[UIScreen mainScreen] bounds].size;
@@ -40,12 +46,13 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     imagesArray = [[NSArray alloc]initWithObjects:@"page1.png",@"page2.png",@"page3.png", nil];
+    labelsArray = [[NSArray alloc]initWithObjects:@"Swedish Massage", @"Deep Tissue Massage", @"Hot Stone Massage", @"Reflexology", @"Trigger Point Therapy", nil];
 
     for (int i = 0; i < imagesArray.count; i++) {
         
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(i *  screenSize.width, 0, screenSize.width,  screenSize.height-64)];
         
-        imageView.contentMode = UIViewContentModeScaleAspectFit;
+        imageView.contentMode = UIViewContentModeScaleAspectFill;
         
         [imageView setImage:[UIImage imageNamed:[imagesArray objectAtIndex:i]]];
         [self.imageScrollView addSubview:imageView];
@@ -68,11 +75,14 @@
 - (IBAction)reserveButtonClicked:(id)sender {
     
     if (self.pageControl.currentPage == 2) {
-        NSLog(@"Here");
+        
+        ScheduleViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ScheduleView"];
+        self.navigationController.navigationBar.topItem.title = @"";
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
-#pragma marks - UITableView Delegate
+#pragma mark - UITableView DataSource
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
@@ -85,11 +95,20 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     ServiceTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ServiceCell" forIndexPath:indexPath];
-    cell.label.text = @"Massage";
+    cell.label.text = [NSString stringWithFormat:@"%@",[labelsArray objectAtIndex:indexPath.row]];
     
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.row == 2) {
+        
+        ScheduleViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ScheduleView"];
+        self.navigationController.navigationBar.topItem.title = @"";
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+}
 
 /*
 #pragma mark - Navigation

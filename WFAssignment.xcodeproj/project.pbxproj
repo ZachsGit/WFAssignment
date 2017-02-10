@@ -22,6 +22,13 @@
 		34D224981E4C6652004FF1A4 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D224971E4C6652004FF1A4 /* page3.png */; };
 		34D2249B1E4C66A9004FF1A4 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */; };
 		34D2249E1E4C7CBD004FF1A4 /* ServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */; };
+		34D224A21E4CFB77004FF1A4 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224A11E4CFB77004FF1A4 /* ScheduleViewController.m */; };
+		34D224A61E4CFCFB004FF1A4 /* InfomationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224A51E4CFCFB004FF1A4 /* InfomationTableViewCell.m */; };
+		34D224A91E4D2E0D004FF1A4 /* MonthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224A81E4D2E0D004FF1A4 /* MonthTableViewCell.m */; };
+		34D224AE1E4D310F004FF1A4 /* DateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224AC1E4D310F004FF1A4 /* DateCollectionViewCell.m */; };
+		34D224AF1E4D310F004FF1A4 /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D224AD1E4D310F004FF1A4 /* DateCollectionViewCell.xib */; };
+		34D224B21E4D6341004FF1A4 /* TimeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224B11E4D6341004FF1A4 /* TimeCollectionViewCell.m */; };
+		34D224B51E4D6377004FF1A4 /* TimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D224B41E4D6377004FF1A4 /* TimeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +75,19 @@
 		34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		34D2249C1E4C7CBD004FF1A4 /* ServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceTableViewCell.h; sourceTree = "<group>"; };
 		34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTableViewCell.m; sourceTree = "<group>"; };
+		34D224A01E4CFB77004FF1A4 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		34D224A11E4CFB77004FF1A4 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		34D224A41E4CFCFB004FF1A4 /* InfomationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfomationTableViewCell.h; sourceTree = "<group>"; };
+		34D224A51E4CFCFB004FF1A4 /* InfomationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfomationTableViewCell.m; sourceTree = "<group>"; };
+		34D224A71E4D2E0D004FF1A4 /* MonthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthTableViewCell.h; sourceTree = "<group>"; };
+		34D224A81E4D2E0D004FF1A4 /* MonthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthTableViewCell.m; sourceTree = "<group>"; };
+		34D224AB1E4D310F004FF1A4 /* DateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCollectionViewCell.h; sourceTree = "<group>"; };
+		34D224AC1E4D310F004FF1A4 /* DateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCollectionViewCell.m; sourceTree = "<group>"; };
+		34D224AD1E4D310F004FF1A4 /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
+		34D224B01E4D6341004FF1A4 /* TimeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeCollectionViewCell.h; sourceTree = "<group>"; };
+		34D224B11E4D6341004FF1A4 /* TimeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeCollectionViewCell.m; sourceTree = "<group>"; };
+		34D224B31E4D6377004FF1A4 /* TimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTableViewCell.h; sourceTree = "<group>"; };
+		34D224B41E4D6377004FF1A4 /* TimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,14 +142,13 @@
 				34D224591E4C2C5D004FF1A4 /* AppDelegate.m */,
 				34D2245B1E4C2C5D004FF1A4 /* ViewController.h */,
 				34D2245C1E4C2C5D004FF1A4 /* ViewController.m */,
-				34D2248C1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.h */,
-				34D2248D1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m */,
-				34D2248E1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib */,
 				34D2245E1E4C2C5D004FF1A4 /* Main.storyboard */,
 				34D224991E4C66A9004FF1A4 /* ServiceViewController.h */,
 				34D2249A1E4C66A9004FF1A4 /* ServiceViewController.m */,
-				34D2249C1E4C7CBD004FF1A4 /* ServiceTableViewCell.h */,
-				34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */,
+				34D224A01E4CFB77004FF1A4 /* ScheduleViewController.h */,
+				34D224A11E4CFB77004FF1A4 /* ScheduleViewController.m */,
+				34D224A31E4CFCD2004FF1A4 /* ScheduleViewCells */,
+				34D2249F1E4CF437004FF1A4 /* Cells */,
 				34D224611E4C2C5D004FF1A4 /* Assets.xcassets */,
 				34D224631E4C2C5D004FF1A4 /* LaunchScreen.storyboard */,
 				34D224661E4C2C5D004FF1A4 /* Info.plist */,
@@ -165,6 +184,44 @@
 				34D2247C1E4C2C5D004FF1A4 /* Info.plist */,
 			);
 			path = WFAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		34D2249F1E4CF437004FF1A4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				34D2248C1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.h */,
+				34D2248D1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m */,
+				34D2248E1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib */,
+				34D2249C1E4C7CBD004FF1A4 /* ServiceTableViewCell.h */,
+				34D2249D1E4C7CBD004FF1A4 /* ServiceTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		34D224A31E4CFCD2004FF1A4 /* ScheduleViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				34D224A41E4CFCFB004FF1A4 /* InfomationTableViewCell.h */,
+				34D224A51E4CFCFB004FF1A4 /* InfomationTableViewCell.m */,
+				34D224A71E4D2E0D004FF1A4 /* MonthTableViewCell.h */,
+				34D224A81E4D2E0D004FF1A4 /* MonthTableViewCell.m */,
+				34D224B31E4D6377004FF1A4 /* TimeTableViewCell.h */,
+				34D224B41E4D6377004FF1A4 /* TimeTableViewCell.m */,
+				34D224AA1E4D30DB004FF1A4 /* CollectionView Cells */,
+			);
+			name = ScheduleViewCells;
+			sourceTree = "<group>";
+		};
+		34D224AA1E4D30DB004FF1A4 /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				34D224AB1E4D310F004FF1A4 /* DateCollectionViewCell.h */,
+				34D224AC1E4D310F004FF1A4 /* DateCollectionViewCell.m */,
+				34D224AD1E4D310F004FF1A4 /* DateCollectionViewCell.xib */,
+				34D224B01E4D6341004FF1A4 /* TimeCollectionViewCell.h */,
+				34D224B11E4D6341004FF1A4 /* TimeCollectionViewCell.m */,
+			);
+			name = "CollectionView Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D224AF1E4D310F004FF1A4 /* DateCollectionViewCell.xib in Resources */,
 				34D224651E4C2C5D004FF1A4 /* LaunchScreen.storyboard in Resources */,
 				34D224941E4C6647004FF1A4 /* page1.png in Resources */,
 				34D224901E4C3FB4004FF1A4 /* ReservationCollectionViewCell.xib in Resources */,
@@ -310,8 +368,14 @@
 				34D2245D1E4C2C5D004FF1A4 /* ViewController.m in Sources */,
 				34D2245A1E4C2C5D004FF1A4 /* AppDelegate.m in Sources */,
 				34D224571E4C2C5D004FF1A4 /* main.m in Sources */,
+				34D224A61E4CFCFB004FF1A4 /* InfomationTableViewCell.m in Sources */,
+				34D224AE1E4D310F004FF1A4 /* DateCollectionViewCell.m in Sources */,
 				34D2249B1E4C66A9004FF1A4 /* ServiceViewController.m in Sources */,
+				34D224A91E4D2E0D004FF1A4 /* MonthTableViewCell.m in Sources */,
+				34D224B21E4D6341004FF1A4 /* TimeCollectionViewCell.m in Sources */,
+				34D224B51E4D6377004FF1A4 /* TimeTableViewCell.m in Sources */,
 				34D2248F1E4C3FB4004FF1A4 /* ReservationCollectionViewCell.m in Sources */,
+				34D224A21E4CFB77004FF1A4 /* ScheduleViewController.m in Sources */,
 				34D2249E1E4C7CBD004FF1A4 /* ServiceTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
